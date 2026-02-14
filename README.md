@@ -98,7 +98,4 @@ result = generator.create_poster(
 - Чистого фона
 - Маркетингового качества
 
-# OS
-.DS_Store
 
-Thumbs.db
