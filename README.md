@@ -64,7 +64,7 @@ pip install -r requirements.txt
 GEMINI_API_KEY=ваш_ключ_здесь
 
 # Путь к референсному постеру
-REFERENCE_IMAGE_PATH=E:/Pet-proekt/AutoCarPosterGen/reference.jpg
+REFERENCE_IMAGE_PATH=/AutoCarPosterGen/reference.jpg
 
 # Папка для сохранения (создается автоматически)
 OUTPUT_DIRECTORY=output
@@ -193,8 +193,8 @@ pip install google-genai
 1. ✅ Путь в `.env` правильный
 2. ✅ Файл существует
 3. ✅ Используйте прямые слеши `/` даже в Windows:
-   - ✅ Правильно: `E:/Projects/reference.jpg`
-   - ❌ Неправильно: `E:\Projects\reference.jpg`
+   - ✅ Правильно: `/Projects/reference.jpg`
+   - ❌ Неправильно: `\Projects\reference.jpg`
 
 ## 📁 Структура проекта
 
